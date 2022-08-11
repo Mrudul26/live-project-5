@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Orbitron:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./assets/bg.png");
+  height: 770px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 7%;
+  background-color: black;
+  height: 10%;
+}
+ul {
+  margin-left: -300px;
+}
+ul > li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px;
+  margin: 13px 20px;
+  color: white;
+  font-family: Montserrat sans-serif;
+}
+
+div.hero {
+  text-align: center;
+  margin: 30% 30%;
+  color: white;
+  font-family: Montserrat;
+}
+
+h1 {
+  line-height: 1;
+  font-size: 57px;
+  margin-top: -35%;
+  max-width: 750px;
+}
+p.hero-description {
+  font-size: 20px;
+  margin-top: 5px;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+
+button.button-large {
+  margin-top: 45px;
+  background-color: #c24cc2;
+  color: white;
+  border: none;
+  width: 295px;
+  height: 45px;
+  font-size: 22px;
+  border-radius: 10px;
+}
+button.button-small {
+  background-color: #c24cc2;
+  color: white;
+  border: none;
+  width: 160px;
+  height: 35px;
+  font-size: 18px;
+  border-radius: 10px;
+}
